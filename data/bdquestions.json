@@ -102,7 +102,7 @@
    "id": 3,
    "imagen": "./img/q1b2.png",
    "pregunta": "En JavaScript, para darle el nombre a una variable, objeto o función, debemos tener en cuenta que:",
-   "resCorr": "main",
+   "resCorr": "JavaScript diferencia entre mayúsculas y minúsculas",
    "res1": "No se pueden usar mayúsculas",
    "res2": "JavaScript no distingue entre mayúsculas y minúsculas",
    "res3": "JavaScript diferencia entre mayúsculas y minúsculas"

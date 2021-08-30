@@ -745,6 +745,7 @@ const guardarCorrectojs = async () =>{
     let correctas1 = correctas + 1;
     // let incorrectas1 = incorrectas;
     let idrespjs1 = document.getElementById('idresOnline').value;
+    console.log(idrespjs1)
     idrespjs.push(idrespjs1)
     // let tiempo1 = tiempo;
     // let idrespcss1 = idrespcss;
@@ -1018,9 +1019,9 @@ function pintarQS2js() {
         <button id="q2btn">COMPROBAR</button> 
     `
     q2btn.addEventListener('click', (e) => {
-        e.preventDefault()
+       
         resUsuario = document.getElementById('ValidaDrop').value;
-      e;
+        document.getElementById('idresOnline').value = idF;
         resCorr = "opcion2opcion4opcion1opcion3";
        
         if (resCorr == resUsuario) {
@@ -1081,7 +1082,7 @@ function pintarQS2css() {
     q2btn.addEventListener('click', (e) => {
         e.preventDefault()
         resUsuario = document.getElementById('ValidaDrop').value;
-      e;
+        document.getElementById('idresOnline').value = idF;
         resCorr = "opcion2opcion4opcion1opcion3";
        
         if (resCorr == resUsuario) {

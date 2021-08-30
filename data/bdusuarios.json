@@ -24,10 +24,10 @@
       "correo": "oscar@gmail.com",
       "foto": "lo logre",
       "id": 2,
-      "vidas": 3,
-      "respuestas": 27,
-      "correctas": 15,
-      "incorrectas": 12,
+      "vidas": 5,
+      "respuestas": 36,
+      "correctas": 21,
+      "incorrectas": 15,
       "tiempo": 0,
       "idrespH": [
         "5",
@@ -42,11 +42,15 @@
         "4"
       ],
       "idrespjs": [
-        ""
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
       ],
       "progh": 66.6668,
       "progcss": 83.33349999999999,
-      "progjs": 16.6667
+      "progjs": 116.66689999999997
     }
   ]
 }
