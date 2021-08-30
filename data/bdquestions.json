@@ -1,0 +1,35 @@
+{
+"Qst":[
+   {
+    "id": 1,
+    "imagen": "./img/q1bv.png",
+    "pregunta": "¿Qué etiqueta es semánticamente correcta para el contenido principal",
+    "resCorr": "main",
+    "res1": "main",
+    "res2": "section",
+    "res3": "header",
+    "res4": ""         
+   },
+   {
+    "id": 2,
+    "imagen": "./img/q1g.png",
+    "pregunta": "Montoya Montoya",
+    "resCorr": "jenny@gmail.com",
+    "res1": "main",
+    "res2": "section",
+    "res3": "header",  
+    "res4": ""         
+   },
+   {
+    "id": 3,
+    "imagen": "./img/q1b2.png",
+    "pregunta": "¿Qué etiqueta es semánticamente correcta para el contenido principal",
+    "resCorr": "main",
+    "res1": "main",
+    "res2": "section",
+    "res3": "header",
+    "res4": ""           
+   }
+
+  ]
+}
