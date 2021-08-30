@@ -7,8 +7,8 @@
     "resCorr": "main",
     "res1": "main",
     "res2": "section",
-    "res3": "header",
-    "res4": ""         
+    "res3": "header"
+         
    },
    {
     "id": 2,
@@ -17,8 +17,8 @@
     "resCorr": "jenny@gmail.com",
     "res1": "main",
     "res2": "section",
-    "res3": "header",  
-    "res4": ""         
+    "res3": "header" 
+         
    },
    {
     "id": 3,
@@ -27,9 +27,97 @@
     "resCorr": "main",
     "res1": "main",
     "res2": "section",
-    "res3": "header",
-    "res4": ""           
+    "res3": "header"
+           
    }
 
-  ]
+  ],
+
+"Qst1":[
+  {
+   "id": 1,
+   "imagen": "./img/q1bv.png",
+   "pregunta": "¿Cómo podemos modificar el tamaño del texto?",
+   "resCorr": "font-size",
+   "res1": "text-size",
+   "res2": "font-size",
+   "res3": "font-style"
+        
+  },
+  {
+   "id": 2,
+   "imagen": "./img/q1g.png",
+   "pregunta": "¿Cuál es la propiedad usada para cambiar el color de fondo?",
+   "resCorr": "background-color:",
+   "res1": " color:",
+   "res2": "background-color:",
+   "res3": "bgcolor:"  
+        
+  },
+  {
+   "id": 3,
+   "imagen": "./img/q1b2.png",
+   "pregunta": "¿Cómo consigo que todas las palabras empiecen en mayúsculas?",
+   "resCorr": "text-transform:uppercase",
+   "res1": "text-transform:uppercase",
+   "res2": "text-transform:initial",
+   "res3": "text-transform:capitalize"
+          
+  },
+  {
+   "id": 4,
+   "imagen": "./img/q1b2.png",
+   "pregunta": "¿Cómo podemos cambiar la fuente de un elemento?",
+   "resCorr": "font-family:",
+   "res1": " text-indent:",
+   "res2": " font=",
+   "res3": "font-family:"
+          
+  }
+
+ ],
+
+"Qst2":[
+  {
+   "id": 1,
+   "imagen": "./img/q1bv.png",
+   "pregunta": "¿Cuáles de estas son marcas para la inserción del código JavaScript en las páginas HTML?",
+   "resCorr": "< script > y < /script >",
+   "res1": "< javascript _code > y < /javascript_code >",
+   "res2": "< script > y < /script >",
+   "res3": "< ?script > y < script? >"
+        
+  },
+  {
+   "id": 2,
+   "imagen": "./img/q1g.png",
+   "pregunta": "La llamada al código Javascript debe colocarse en:",
+   "resCorr": "La sección Body de la página",
+   "res1": "La sección Body de la página",
+   "res2": "Antes de la etiqueta HTML",
+   "res3": "Puede colocarse en la sección Head o en Body" 
+        
+  },
+  {
+   "id": 3,
+   "imagen": "./img/q1b2.png",
+   "pregunta": "En JavaScript, para darle el nombre a una variable, objeto o función, debemos tener en cuenta que:",
+   "resCorr": "main",
+   "res1": "No se pueden usar mayúsculas",
+   "res2": "JavaScript no distingue entre mayúsculas y minúsculas",
+   "res3": "JavaScript diferencia entre mayúsculas y minúsculas"
+          
+  },
+  {
+   "id": 4,
+   "imagen": "./img/q1b2.png",
+   "pregunta": "¿Cuál es la instrucción usada para devolver un valor en una función de JavaScript?",
+   "resCorr": "Return",
+   "res1": "Send",
+   "res2": "Return",
+   "res3": "Value"
+          
+  }
+
+ ]
 }

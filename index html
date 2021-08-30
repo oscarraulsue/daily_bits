@@ -87,8 +87,8 @@
         <div class="logos">
             <img id = "logHtml" class = "logHtml"src="./img/html.png" alt="Categoria HTML">
            <div class="cssJs">
-            <img src="./img/css.png" alt="Categoria CSS">  
-            <img src="./img/js.png" alt="Categoria JavaScript">     
+            <img id ="logCss" src="./img/css.png" alt="Categoria CSS">  
+            <img id = "logJs" src="./img/js.png" alt="Categoria JavaScript">     
             </div>
             <div class="uxF">
             <img src="./img/f.png" alt="Categoria Figma">      
@@ -113,17 +113,13 @@
         <h1 id="livNum"></h1>
 	</div>
     <div id = "q1body" class="q1body">
-       <p id="pq3">¿Qué tecnologías pertenece al MEVN Stack?</p>
-       <div class="imgq2">
-       <img id="ang"src="./img/ang.png" alt="Angular">
-       <img id="vue" src="./img/vue.png" alt="Vue.js">
-       <img id="win" src="./img/win.png" alt="Windows">
-       <img id="kot" src="./img/kot.png" alt="Kotlin">
+
+</div>
+</div>
+    <div id = "buenTrab">
+      <h1>buen trabajo</h1>
+      <button id="btnCont">continuar</button> 
     </div>
-    <button id="q3btn">COMPROBAR</button> 
-</div>
-</div>
-    
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
