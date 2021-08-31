@@ -6,24 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Bits</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./img/logoCfondo.png">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 <body>
-    <input type="text" name="das" id="idresOnline">
-    <input type="hidden" name="" id="resV">
-    <input type="hidden" name="" id="resU">
-    <input type="hidden" id = "idUsurioOnline" name="" value="" />
-    <input type="hidden" id = "idrespHOnline" name="" value="" />
-    <input type="hidden" id = "idrespcssOnline" name="" value="" />
-    <input type="hidden" id = "idrespjsOnline" name="" value="" />
-    <input type="hidden" id = "ValidaDrop" name="" value="" />
-    <input type="hidden" id = "ValidaDrop2" name="" value="" />
+
     <div id="containerInicial">
     <img class ="logInicial" src="./img/logoBlanco.png" alt="">
     </div>
 
-    <div id ="containerInicio">
+    <div id ="containerInicio" >
     <img class = "logoCfondo"src="./img/logoCfondo.png" alt="">
     <div class="iniciarSesion">
         <h1 id="iniciarS">Iniciar sesión</h1>
@@ -34,7 +27,7 @@
         <div class="coreroCont">
         <h1 id="correo">Correo electrónico</h1>
         </div>
-        <input id="inputCorr" class = "inputCorreo" type="correo" placeholder = "Ingrese su correo electrónico"> <button id ="btnGo" disabled="disabled">Go!</button>
+        <input id="inputCorr" class = "inputCorreo" type="email" placeholder = "Ingrese su correo electrónico"> <button id ="btnGo" disabled="disabled">Go!</button>
         </div>
         </div>
         <h3 id= "olvido" class = "olvido">¿Se te olvidó tu contraseña?</h3>
@@ -96,8 +89,8 @@
              </div>
              <div class="footerCateg">
                 <img class = "home"src="./img/homeGreen.png" alt="Ir al inicio">
-                <img class = "stad"src="./img/stadWhite.png" alt="Ir a las estadisticas">
-                <img class = "perfil" src="./img/pefilWhite.png" alt="Ir al perfil">
+                <img id = "stad" class = "stad"src="./img/stadWhite.png" alt="Ir a las estadisticas">
+                <img id = "perfilHom" class = "perfil" src="./img/pefilWhite.png" alt="Ir al perfil">
             </div>
         </div>
 
@@ -115,6 +108,47 @@
     <div id = "q1body" class="q1body">
 
 </div>
+</div>
+<div id = "estadisticas">
+    <h1>Estadisticas</h1>
+    <div class = "inputE">
+    <img class = "imgestt"src="./img/timeLog.png" alt="">
+    <h2 class = "descEs">Tiempo de estudio</h2>
+    <h1 id="estTiem"class = "resEst"></h1>
+</div>
+<div id = "inputE1" class = "inputE">
+    <img class = "imgestt"src="./img/mensLogo.png" alt="">
+    <h2 class = "descEs">Respuestas contestadas</h2>
+    <h1 id="estConst" class = "resEst"></h1>
+</div>
+<div id = "inputE2" class = "inputE">
+    <img class = "imgestt"src="./img/mensLogo.png" alt="">
+    <h2 class = "descEs">Respuestas correctas</h2>
+    <h1 id="estCorr" class = "resEst"></h1>
+</div>
+<div id = "inputE3" class = "inputE">
+    <img class = "imgestt"src="./img/mensLogo.png" alt="">
+    <h2 class = "descEs">Respuestas incorrectas</h2>
+    <h1 id="estInco" class = "resEst"></h1>
+</div>
+<div id = "estFoot" class="footerCateg">
+    <img id = "estHom" class = "home"src="./img/homeWhite.png" alt="Ir al inicio">
+    <img class = "stad"src="./img/staG.png" alt="Ir a las estadisticas">
+    <img id = "estPerfil" class = "perfil" src="./img/pefilWhite.png" alt="Ir al perfil">
+</div>
+</div>
+<div id = "perfilIn" >
+    <h1>Perfil</h1>
+    <img id = "fotoPer"src="" alt="">
+    <h2 id ="nomP"></h2>
+    <h2 id = "corrPe"></h2>
+
+    <h3 id = "btnPer">Cerrar Sesión</h3>
+    <div id = "perfilFoot" class="footerCateg">
+        <img id = "perHom" class = "home"src="./img/homeWhite.png" alt="Ir al inicio">
+        <img id = "perEst" class = "stad"src="./img/stadWhite.png" alt="Ir a las estadisticas">
+        <img class = "perfil" src="./img/perfG.png" alt="Ir al perfil">
+    </div>
 </div>
 
 <!-- JavaScript Bundle with Popper -->

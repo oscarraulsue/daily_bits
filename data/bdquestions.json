@@ -3,7 +3,7 @@
    {
     "id": 1,
     "imagen": "./img/q1bv.png",
-    "pregunta": "¿Qué etiqueta es semánticamente correcta para el contenido principal",
+    "pregunta": "¿Qué etiqueta es semánticamente correcta para el contenido principal?",
     "resCorr": "main",
     "res1": "main",
     "res2": "section",
@@ -13,21 +13,21 @@
    {
     "id": 2,
     "imagen": "./img/q1g.png",
-    "pregunta": "Montoya Montoya",
-    "resCorr": "jenny@gmail.com",
-    "res1": "main",
-    "res2": "section",
-    "res3": "header" 
+    "pregunta": "¿Qué etiqueta HTML nos sirve para incluir archivos de JavaScript?",
+    "resCorr": "<script>",
+    "res1": "<br>",
+    "res2": "<script>",
+    "res3": "<styles>" 
          
    },
    {
     "id": 3,
     "imagen": "./img/q1b2.png",
-    "pregunta": "¿Qué etiqueta es semánticamente correcta para el contenido principal",
-    "resCorr": "main",
-    "res1": "main",
-    "res2": "section",
-    "res3": "header"
+    "pregunta": "¿Qué significa DRY?",
+    "resCorr": "Don’t repeat yourself",
+    "res1": "Don’t repeat yourself",
+    "res2": "Don’t repeat yellow",
+    "res3": "Don’t recicle year"
            
    }
 

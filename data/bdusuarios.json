@@ -1,16 +1,15 @@
 {
   "usuarios": [
     {
-      "nombre": "Jenny Alexandra",
-      "apellido": "Montoya Montoya",
-      "correo": "jenny@gmail.com",
-      "foto": "siiiiiiiiiiiiiiiiiiiiiiii",
+      "nombre": "Silvia Garcia",
+      "correo": "garcia.s091@gmail.com",
+      "foto": "https://ca.slack-edge.com/TK62T296E-U01D9LELH7B-ae0f8890cbcc-512",
       "id": 1,
       "vidas": 0,
       "respuestas": 0,
       "correctas": 0,
       "incorrectas": 0,
-      "tiempo": 0,
+      "tiempo": "",
       "idrespH": [],
       "idrespcss": [],
       "idrespjs": [],
@@ -22,35 +21,54 @@
       "nombre": "Oscar Raul",
       "apellido": "Sue Alvarado",
       "correo": "oscar@gmail.com",
-      "foto": "lo logre",
+      "foto": "https://mail.google.com/mail/u/0?ui=2&ik=bf66db2dd8&attid=0.1&permmsgid=msg-a:r3341094343856411719&th=17b9ded8136ecb21&view=att&disp=safe&realattid=f_kt0j6heq0",
       "id": 2,
-      "vidas": 5,
-      "respuestas": 36,
-      "correctas": 21,
-      "incorrectas": 15,
-      "tiempo": 0,
+      "vidas": 13,
+      "respuestas": 76,
+      "correctas": 39,
+      "incorrectas": 37,
+      "tiempo": "00:19",
       "idrespH": [
         "5",
-        "3",
-        "2",
-        "1"
+        "4",
+        "1",
+        "2"
       ],
       "idrespcss": [
         "2",
         "1",
         "3",
-        "4"
-      ],
-      "idrespjs": [
-        "1",
-        "2",
-        "3",
         "4",
         "5"
       ],
-      "progh": 66.6668,
-      "progcss": 83.33349999999999,
-      "progjs": 116.66689999999997
+      "idrespjs": [
+        "2",
+        "4",
+        "3",
+        "5",
+        "1"
+      ],
+      "progh": 200,
+      "progcss": 180,
+      "progjs": 100
+    },
+    {
+      "nombre": "asd",
+      "apellido": "asd",
+      "correo": "asd",
+      "foto": "asd",
+      "vidas": 0,
+      "respuestas": 0,
+      "correctas": 0,
+      "incorrectas": 0,
+      "tiempo": 0,
+      "idrespH": [],
+      "idrespcss": [],
+      "idrespjs": [],
+      "progh": 0,
+      "progcss": 0,
+      "progjs": 0,
+      "id": 3
     }
   ]
 }

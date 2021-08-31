@@ -608,16 +608,11 @@ flex-grow: 0;
 
 }
 .containerQ1{
-    /* Daily Bits */
-
-
 position: relative;
 width: 360px;
 height: 640px;
-display: none;
-/* Black */
-
 background: #16161A;
+display: none;
 }
 #x{
     position: static;
@@ -825,7 +820,7 @@ position: static;
 width: 328px;
 height: 48px;
 margin-top: 40px;
-margin-left: 14px;
+
 
 
 background: #6B47DC;
@@ -1228,4 +1223,221 @@ letter-spacing: 0.0125em;
 /* White */
 
 color: #FFFFFE;
+}
+
+#estadisticas{
+  position: relative;
+  width: 360px;
+  height: 640px;
+  background: #16161A;
+  display: none;
+}
+#estadisticas h1{
+  
+position: static;
+width: 328px;
+height: 30px;
+margin-left: 16px;
+padding-top: 16px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+color: #FFFFFE;
+
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+.inputE{
+  /* Auto Layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 328px;
+height: 56px;
+left: 16px;
+margin-top: 30px;
+
+/* Grey */
+
+border: 1px solid #94A1B2;
+box-sizing: border-box;
+border-radius: 8px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.descEs{
+ position: absolute;
+  width: 308px;
+/* Body 1/Bold */
+margin:2px 45px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+height: 24px;
+/* identical to box height, or 150% */
+
+
+
+color: #FFFFFE;
+
+
+}
+.imgestt{
+  position: static;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+}
+.inputE .resEst{
+ position:absolute;
+width: 100px;
+height: 233px;
+padding-left: 210px;
+margin-top: -19px;
+
+/* Body 1/Regular */
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* text-align: right;
+letter-spacing: 0.005em; */
+
+/* White */
+
+color: #FFFFFE;
+
+
+
+}
+#inputE1{
+  margin-top: 100px;
+  
+}
+#inputE2{
+  margin-top: 170px;
+}
+#inputE3{
+  margin-top: 240px;
+}
+#estFoot{
+  margin-top: 540px;
+}
+#fotoPer{
+  position: static;
+  width: 150px;
+  height: 150px;
+  margin-left: 100px;
+  margin-top: 20px;
+  
+  background: url(.png);
+  border-radius: 50%;
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  
+}
+#perfilIn{
+  position: relative;
+  width: 360px;
+  height: 640px;
+  background: #16161A;
+  display: none;
+}
+#perfilIn h1{
+  
+position: static;
+width: 328px;
+height: 30px;
+margin-left: 16px;
+padding-top: 16px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+color: #FFFFFE;
+
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+#perfilIn h2{
+  
+position: static;
+width: 360px;
+height: 24px;
+margin-left: 0px;
+margin-top: 10px;
+text-align: center;
+
+/* Body 1/Bold */
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFE;
+
+}
+#btnPer{
+  cursor: pointer;
+position: absolute;
+width: 305px;
+height: 24px;
+left: 122px;
+margin-top: 26px;
+
+/* /BUTTON */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Red */
+
+color: #EF4565;
+}
+#perfilFoot{
+  margin-top: 295px;
+}
+.inputE #estTiem{
+  margin-left: -14px;
 }
